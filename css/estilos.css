@@ -1,10 +1,16 @@
-@media screen {
-
+@media screen (max-width=900px) {
+body
 }
 
+@media screen (min-width=900px) {
+	body
+}
 
 body{
 	background-color:  #02010a;
+	margin: 20px;
+	color: white;
+	font-family: Dancing Script;
 }
 
 .contenido{
@@ -13,21 +19,18 @@ body{
 	width: 900px;
 }
 
-.Cabecera{
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	background-color: #5b7989;
-	border-radius:10px;
+	border-radius: 10px;
+	width: 100%;
 }
+
 #titulo1{
 	color:white;
 	text-shadow: 2px 0px #02010a;
-	text-align:left;
-	margin: 20px;
-}
-
-.Enlaces	{
-	margin: 0px 0px 10px 10px;
-	text-align: right;
-
 }
 
 .Img1{
@@ -35,12 +38,13 @@ body{
 
 }
 
-#imagen1{
+.contenedor2{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #d5c75f;
+}
+
+img{
 	width: 100%;
 	border: 10px #82c3a6 solid;
-	margin-left:auto;
-	margin-right:auto;
-}
-#imagen1 img{
-
 }
