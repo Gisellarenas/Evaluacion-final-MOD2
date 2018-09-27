@@ -1,16 +1,11 @@
-@media screen (max-width=900px) {
-body
+@media screen {
+
 }
 
-@media screen (min-width=900px) {
-	body
-}
 
 body{
 	background-color:  #02010a;
-	margin: 20px;
-	color: white;
-	font-family: Dancing Script;
+	font-family: 'Dancing Script';
 }
 
 .contenido{
@@ -18,33 +13,57 @@ body{
 	margin-right: auto;
 	width: 900px;
 }
-
 header{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #5b7989;
-	border-radius: 10px;
 	width: 100%;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
 }
-
 #titulo1{
 	color:white;
 	text-shadow: 2px 0px #02010a;
 }
 
+.Enlaces	{
+color:white !important;
+}
+
 .Img1{
 	width: 100%;
+    height: 400px;
+    background-color: #82c3a6;
+}
 
+.Img1 img{
+ height: 90%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2% 0 0 20%;
 }
 
 .contenedor2{
-	display: flex;
-	flex-direction: row;
-	border: 1px solid #d5c75f;
+		background-color: #d5c75f;
+		display: flex;
+		flex-direction: row;
 }
 
-img{
-	width: 100%;
-	border: 10px #82c3a6 solid;
+.contenedor2 div{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+.img2 img{
+	border: 1px solid black;
+		height: 40%;
+}
+@keyframes img-animacion {
+	
+}
+.img3 img{
+	border: 1px solid black;
+	height: 40%;
 }
