@@ -69,7 +69,7 @@ color:white !important;
 
 .img2 img{
 	border: 1px solid black;
-		height: 40%;
+		width: 70%;
 		transition-property: border;
 		transition-duration: 0.5s;
 }
@@ -84,7 +84,7 @@ box-shadow: 2px 2px 2px 2px rgba(130,195,166,1);
 
 .img3 img{
 	border: 1px solid black;
-	height: 40%;
+	width: 70%;
 	transition-property: traslate;
 	transition-duration: 2s;
 }
