@@ -1,0 +1,181 @@
+@media (min-width:900px){
+.contenedor div{
+width:100%;
+}
+}
+
+@media (max-width:900px){
+.contenido{
+width:100%;
+}
+header{
+height: 170px !important;
+display: flex;
+flex-direction:column;
+}
+}
+
+@keyframes rebote {
+0%{
+margin-top: 150%;
+}
+60%{
+margin-top: -5%;
+}
+100%{
+margin-top: 0%;
+}
+}
+
+body{
+	background-color:  #02010a;
+	font-family: 'Dancing Script';
+	animation-name: rebote;
+animation-duration: 1.3s;
+  }
+
+  header{
+  	width: 100%;
+  	display: flex;
+      justify-content: space-around;
+      align-items: center;
+  	background-color: #5b7989;
+  	border-radius: 10px 10px 0 0;
+  }
+	.contenido{
+		margin-left: auto;
+		margin-right: auto;
+		width: 900px;
+	  }
+
+	  #titulo1{
+	  	color:white;
+	  	text-shadow: 2px 0px #02010a;
+	  }
+
+		#enlaces	a	{
+		color:white !important;
+		padding: 10px 20px 0px 0px;
+		}
+		.contenedor{
+				background-color: #d5c75f;
+				display: flex;
+				flex-direction: row;
+		}
+
+		footer{
+			background-color: #C6d5c5;
+			display: flex;
+			flex-direction: row;
+			border-radius: 0px 0px 10PX 10px;
+		}
+
+
+		.columna{
+			  -webkit-flex-flow: row wrap;
+				justify-content: space-around;
+				width: 50%;
+				margin:10px 10px 10px 40px;
+		}
+
+.contenedor{
+display: flex;
+flex-wrap: wrap-reverse;
+}
+
+.contenedor div{
+			text-align: center;
+			padding: 0px 0px 1px 40px;
+			margin: 10px;
+			margin-bottom: 1px;
+			width: 25%;
+		}
+
+		.contenedor div img{
+	width:100%;
+	}
+.img1 .img2. .img3 .img4 .img5 .img6{
+	width: 33%;
+}
+
+.img1 {
+	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.img3 {
+	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.img5{
+		-webkit-filter: grayscale(100%);
+		filter:grayscale(100%);
+}
+
+.img4{
+	-webkit-filter: blur(10px);
+	filter:blur(10px);
+}
+.img6{
+	-webkit-filter: sepia(90%);
+	filter:sepia(90%);
+}
+
+
+@media (max-width:900px){
+
+	.contenido{
+    width: 100%;
+		}
+
+  .contenedor{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 100%;
+
+  }
+
+#imagen1{
+	width: 250%;
+	align-content: center;
+}
+#imagen2{
+	width: 250%;
+	align-content: center;
+}
+#imagen3{
+	width: 250%;
+	align-content: center;
+}
+
+#imagen4{
+	width: 250%;
+	align-content: center;
+}
+
+#imagen5{
+	width: 250%;
+	align-content: center;
+}
+
+#imagen6{
+	width: 250%;
+	align-content: center;
+}
+
+  header{
+    height: 200px !important;
+    display: flex;
+    flex-direction: column;
+		width: 100%;
+  }
+	footer{
+		display: flex;
+    flex-direction: column;
+		text-align: center;
+		align-items: center;
+		width: 100%;
+	}
+}

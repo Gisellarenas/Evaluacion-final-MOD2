@@ -1,26 +1,44 @@
-@media screen and (max-width:900px){
-	.contenido{
-		width: 100%;
-		margin: 0 auto;
-	}
+@media (min-width:900px){
+.contenedor div{
+width:100%;
+}
 }
 
+@keyframes rebote {
+0%{
+margin-top: 150%;
+}
+60%{
+margin-top: -5%;
+}
+100%{
+margin-top: 0%;
+}
+}
+
+@media (max-width:900px){
+.contenido{
+width:100%;
+}
+header{
+height: 170px !important;
+display: flex;
+flex-direction:column;
+}
+}
 
 body{
 	background-color:  #02010a;
 	font-family: 'Dancing Script';
-}
-@media screen and (min-width:900px) {
-	.contenido
+	animation-name: rebote;
+animation-duration: 1.3s;
 }
 
-@media screen and (max-width:900px) {
-	.contenido
-}
 .contenido{
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
+
 }
 header{
 	width: 100%;
@@ -35,8 +53,9 @@ header{
 	text-shadow: 2px 0px #02010a;
 }
 
-.Enlaces	{
+#enlaces	a	{
 color:white !important;
+padding: 10px 20px 0px 0px;
 }
 
 .Img1{
@@ -109,5 +128,50 @@ footer{
 	  -webkit-flex-flow: row wrap;
 		justify-content: space-around;
 		width: 50%;
-		margin: 10px;
+		margin:10px 10px 10px 40px;
+}
+
+
+@media (max-width:900px){
+  .contenido{
+    width: 100%;
+		height: auto;
+		align-items: baseline;
+  }
+
+	#imagen1{
+		width:85%;
+		justify-content: space-around;
+		margin: 10px 10px 10px 30px;
+	}
+
+	.contenedor2{
+		display: flex;
+    flex-direction: column;
+		width: 100%;
+		align-items:baseline;
+
+	}
+
+	#imagen2{
+		width: 150%;
+
+			margin: 1px;
+	}
+
+	#imagen3{
+		width:150%;
+
+			margin:1px;
+	}
+
+  header{
+    height: 200px !important;
+    display: flex;
+    flex-direction: column;
+  }
+	footer{
+		display: flex;
+    flex-direction: column;
+	}
 }
